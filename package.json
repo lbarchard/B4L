@@ -1,0 +1,29 @@
+{
+  "name": "b4l",
+  "version": "0.0.1",
+  "description": "Simply web site to track Body for Life workouts",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbarchard/B4L.git"
+  },
+  "author": "Les Barchard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbarchard/B4L/issues"
+  },
+  "homepage": "https://github.com/lbarchard/B4L#readme",
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "sequelize": "^3.30.4"
+  }
+}
